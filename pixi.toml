@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Owen <yiwu6326@gmail.com>"]
+channels = ["conda-forge"]
+name = "Summer_Analytics_2025"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+pandas = ">=2.2.3,<3"
+ipykernel = ">=6.29.5,<7"
+seaborn = ">=0.13.2,<0.14"
